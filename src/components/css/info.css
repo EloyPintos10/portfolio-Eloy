@@ -1,0 +1,52 @@
+#fotoPerfil{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px 0px rgb(46, 46, 46);
+}
+
+.section-perfil{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.perfil{
+    line-height: 1;
+}
+
+.perfil__name{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.perfil__details{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-size: 18px;
+    width: 25rem;
+}
+
+.perfil__cv{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px black;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;    
+    margin-top: 20px;
+    line-height: normal;
+}
+.perfil__cv:hover{
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    
+}
+

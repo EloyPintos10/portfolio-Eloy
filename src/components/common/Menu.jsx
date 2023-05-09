@@ -1,0 +1,26 @@
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+
+const Menu = ()=> {
+    return (
+      <div>
+         <Navbar bg="dark" variant="dark" expand="lg">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="justify-content-around">
+            <Nav.Link href="#info">Home</Nav.Link>
+            <Nav.Link href="#practica">Prácticas Profesionales</Nav.Link>
+            <Nav.Link href="#trabajos">Trabajos Realizados</Nav.Link>
+          </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+      </div>
+    );
+  }
+  
+  export default Menu;

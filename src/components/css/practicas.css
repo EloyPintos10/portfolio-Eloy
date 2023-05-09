@@ -1,0 +1,20 @@
+#practicas{
+    margin-top: 5rem;
+}
+
+.content-practicas{
+    text-align: center;
+}
+
+.content-practicas img{
+width: 16rem;
+height: 12rem;
+object-fit: cover;
+margin: 10px 15px;
+box-shadow: 0px 2px 10px 0px black;
+}
+
+.content-practicas img:hover{
+    filter: opacity(85%);  
+
+}
