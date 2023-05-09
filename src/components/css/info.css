@@ -1,3 +1,10 @@
+#info{
+    animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;    
+    padding: 20px;
+}
+
 #fotoPerfil{
     width: 250px;
     height: 350px;
@@ -36,6 +43,7 @@
     border-radius: 10px;
     box-shadow: 0px 2px 5px 0px black;
     text-decoration: none;
+    background-color: white;
     color: black;
     font-size: 18px;
     padding: 10px 25px 10px 25px;    
@@ -50,3 +58,33 @@
     
 }
 
+@keyframes anim{
+    0% {background-color: #ff0;} /*Amarillo*/
+   25% {background-color: #f80;} /*Naranja*/
+   50% {background-color: #6caefa;} /*celeste*/
+   75% {background-color: #f80;} /*Otra vez naranja*/
+  100% {background-color: #ff0;} /*Otra vez amarillo*/
+}
+
+
+
+
+
+
+@media all and (max-width:756px){
+    .section-perfil{
+        display: block;
+        text-align: center;
+        margin: 20px 0px;
+        align-items: center;
+    }
+
+    .perfil__details{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+        font-size: 16px;
+        width: fit-content;
+    }
+}

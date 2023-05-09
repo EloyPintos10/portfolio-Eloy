@@ -4,7 +4,7 @@ import "../../css/info.css";
 import { Container } from "react-bootstrap";
 const Info = () => {
   return (
-    <div>
+    <div id="info">
       <Container>
         <div className="section-perfil">
           <div>

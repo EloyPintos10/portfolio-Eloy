@@ -2,6 +2,7 @@ import React from 'react';
 import Info from './secciones/Info';
 import Practicas from './secciones/Practicas';
 import Trabajos from './secciones/Trabajos';
+import Contacto from './secciones/Contacto';
 
 const Main = () => {
     return (
@@ -9,6 +10,7 @@ const Main = () => {
             <Info></Info>
             <Practicas></Practicas>
             <Trabajos></Trabajos>
+            <Contacto></Contacto>
         </div>
     );
 };
