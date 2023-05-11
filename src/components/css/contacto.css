@@ -1,0 +1,126 @@
+
+#contacto{
+    margin-top: 4rem;
+}
+
+
+.iconos-contact{
+    font-size: 25px;
+    margin-right: 15px;
+    
+}
+
+.contain-text-contact{
+    position: relative;
+    color: black;    
+    font-size: 17px;
+    right: 18rem;
+    top: 5rem;
+    
+}
+
+
+#svg-hexagono{
+    position: relative;
+    bottom: 10rem;
+    left: 12rem;
+    width: 45rem;
+    height: 45rem;
+    animation: rotate 3s infinite linear;
+}
+
+.container-icons a{   
+    color: black;
+}
+
+.container-icons{
+    display:flex;
+
+}
+
+.container-email{
+    display: flex;
+}
+.container-phone{
+    display: flex;
+}
+
+
+@keyframes rotate{
+   
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+@media all and (max-width:756px){
+
+
+    .container-icons{
+        display:flex;
+        flex-direction: column-reverse;            
+    }
+
+    #svg-hexagono{
+        position: relative;
+    bottom: 13rem;
+    left: 0rem;
+    width: 21rem;
+    height: 20rem;
+    animation: none;
+    }
+
+    .contain-text-contact{  
+        position: relative;    
+        font-size: 12px;        
+        right: 0rem;
+        left: 5.5rem;
+           top: 1rem;   
+           width: 11rem;  
+             
+       
+    }
+
+    .iconos-contact{
+        font-size: 17px;
+        margin-right: 10px;
+        
+    }
+
+
+}
+
+@media all and (min-width:756px) and (max-width:991px){
+
+
+    .container-icons{
+        display:flex;
+        flex-direction: column-reverse;            
+    }
+
+    #svg-hexagono{
+        position: relative;
+    bottom: 14rem;
+    left: 7rem;
+    width: 30rem;
+    height: 30rem;
+    
+    }
+
+    .contain-text-contact{  
+        position: relative;     
+        font-size: 15px;
+        right: 0rem;
+        left: 15rem;   
+        width: 14rem;            
+           
+       
+    }
+
+
+}
+
