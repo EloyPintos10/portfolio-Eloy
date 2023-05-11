@@ -38,9 +38,18 @@
     line-height: 1;
 }
 
+.perfil h3{
+    text-shadow: -1px 1px 0px black, 
+               -2px 2px 0px black, 
+               -3px 3px 0px black,
+               -4px 4px 0px black,
+               -5px 5px 0px black;
+}
 .perfil__name{
+    font-family:cursive;
     font-size: 80px;
     font-weight: 700;
+    animation: 2s chicle 2;
 }
 
 .perfil__details{
@@ -87,6 +96,24 @@
     }
 }
 
+@keyframes chicle {
+  
+  
+    30% {
+      transform: scaleX(1.2) scaleY(0.7);
+    }
+  
+    40% {
+      transform: scaleX(0.7) scaleY(1.2);
+    }
+  
+     60% {
+       
+      transform: scaleX(1.1) scaleY(0.8);
+       
+    }
+    
+  }
 
 
 
