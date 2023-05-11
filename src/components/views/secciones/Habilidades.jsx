@@ -46,6 +46,22 @@ const Habilidades = () => {
               <p>Git-Hub</p>
               <ProgressBar variant="success" now={95} />
             </div>
+            <div className="contain-hability-caracter">
+              <p>Mongo DB</p>
+              <ProgressBar variant="success" now={87} />
+            </div>
+            <div className="contain-hability-caracter">
+              <p>Postman</p>
+              <ProgressBar variant="success" now={87} />
+            </div>
+            <div className="contain-hability-caracter">
+              <p>Studio 3T</p>
+              <ProgressBar variant="success" now={85} />
+            </div>
+            <div className="contain-hability-caracter">
+              <p>Npm</p>
+              <ProgressBar variant="success" now={95} />
+            </div>
           </div>
 
           <div>
