@@ -35,7 +35,8 @@ const Contacto = () => {
             <div>
               <BsLinkedin className="iconos-contact" />
               <a
-                href="www.linkedin.com/in/eloy-pintos-82017722a"
+                href="https://www.linkedin.com/in/eloy-pintos-82017722a/"              
+                
                 target="_blank"
               >
                 Perfil Linkedin
