@@ -92,6 +92,11 @@
 
 
 @media all and (max-width:756px){
+
+    .contain-cv{
+        position: relative;
+        left: 2rem;
+    }
     .section-perfil{
         display: block;
         text-align: center;

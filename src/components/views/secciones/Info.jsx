@@ -20,7 +20,7 @@ const Info = () => {
               ganar experiencias y nuevos conocimientos que permitan mi
               crecimiento profesional y laboral.
             </p>
-            <div className="mt-5">
+            <div className="mt-5 contain-cv">
             <a href={pdf} className="perfil__cv" target="_blank">Ver CV</a>
             <img src={click} alt="click" className="click" />
             </div>
