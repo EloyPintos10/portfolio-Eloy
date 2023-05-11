@@ -50,7 +50,7 @@ const Trabajos = () => {
               <p>Promo cencosud</p>
             </a>
             <a
-              href="https://majestic-bublanina-f82413.netlify.app"
+              href="https://cheery-alfajores-befea0.netlify.app"
               target="_blank"
             >
               <img src={triviaFans} alt="Trivia fan Mobile" />
